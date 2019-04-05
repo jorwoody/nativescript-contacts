@@ -1,7 +1,7 @@
 {
-  "name": "nativescript-contacts",
-  "version": "1.5.4",
-  "description": "A NativeScript module providing easy access to iOS and android contact directory. Pick a contact, update date, or add a new one!",
+  "name": "@jorwoody/nativescript-contacts",
+  "version": "1.0.1",
+  "description": "A temporary fork of nativescript-contacts which allows adding of contacts without Account on Android.",
   "main": "index",
   "typings": "nativescript-contacts.d.ts",
   "repository": {
