@@ -6,7 +6,7 @@
   "typings": "nativescript-contacts.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/firescript/nativescript-contacts.git"
+    "url": "git+https://github.com/jorwoody/nativescript-contacts.git"
   },
   "keywords": [
     "NativeScript",
