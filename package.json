@@ -1,6 +1,6 @@
 {
   "name": "@jorwoody/nativescript-contacts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A temporary fork of nativescript-contacts which allows adding of contacts without Account on Android.",
   "main": "index",
   "typings": "nativescript-contacts.d.ts",
