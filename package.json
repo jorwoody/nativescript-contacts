@@ -1,7 +1,7 @@
 {
   "name": "@jorwoody/nativescript-contacts",
-  "version": "1.0.3",
-  "description": "A temporary fork of nativescript-contacts which allows adding of contacts without Account on Android.",
+  "version": "1.0.4",
+  "description": "A temporary fork of 'nativescript-contacts' plugin by Ryan Lebel. Allows adding of contacts without 'Account' on Android.",
   "main": "index",
   "typings": "nativescript-contacts.d.ts",
   "repository": {
@@ -15,10 +15,15 @@
     "Contact Directory"
   ],
   "author": {
-    "name": "Ryan  Lebel",
-    "email": "ryan@firescript.ca"
+    "name": "Jordan Wood",
+    "email": "jordanmyleswood@gmail.com"
   },
   "contributors": [
+    {
+      "name": "Ryan Lebel",
+      "email": "ryan@firescript.ca",
+      "url": "https://github.com/firescript"
+    },
     {
       "name": "Steve McNiven-Scott",
       "email": "steve@sitefinitysteve.com",
@@ -39,12 +44,12 @@
   ],
   "license": {
     "type": "MIT",
-    "url": "https://github.com/firescript/nativescript-contacts/blob/master/LICENSE"
+    "url": "https://github.com/jorwoody/nativescript-contacts/blob/master/LICENSE"
   },
   "bugs": {
-    "url": "https://github.com/firescript/nativescript-contacts/issues"
+    "url": "https://github.com/jorwoody/nativescript-contacts/issues"
   },
-  "homepage": "https://github.com/firescript/nativescript-contacts",
+  "homepage": "https://github.com/jorwoody/nativescript-contacts",
   "nativescript": {},
   "devDependencies": {
     "tns-core-modules": "5.2.0"

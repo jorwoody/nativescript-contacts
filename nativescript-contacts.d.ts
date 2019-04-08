@@ -1,4 +1,4 @@
-declare module "nativescript-contacts" {
+declare module "@jorwoody/nativescript-contacts" {
     import imageSource = require("image-source");
     
     export interface ContactField {
