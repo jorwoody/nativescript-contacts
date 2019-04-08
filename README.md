@@ -1,18 +1,25 @@
 # NativeScript Contacts
 
+NOTE: This is a *temporary* fork of the ['nativescript-contacts'](https://market.nativescript.org/plugins/nativescript-contacts) plugin by Ryan Lebel. It allows adding of contacts without 'Account' on Android. Will deprecate this plugin once the main plugin includes this improvement.
+
 A NativeScript module providing easy access to iOS and Android contact directory. Pick a contact, update it, delete it, or add a new one.
 Working with groups available in 1.5.0. Create a group, add and remove contacts to the group, and delete a group.
 
 ## Installation
 
-Run `tns plugin add nativescript-contacts`
+Run `tns plugin add @jorwoody/nativescript-contacts`
 
 ## Usage
 
-To use the contacts module you must first `require()` it.
+To use the contacts module you must first `require()` or `import` it.
 
+### .js:
 ```js
-var contacts = require("nativescript-contacts");
+var contacts = require("@jorwoody/nativescript-contacts");
+```
+### .ts:
+```ts
+import * as contacts from "@jorwoody/nativescript-contacts");
 ```
 
 ## iOS Caveats
@@ -47,9 +54,9 @@ Permissions.requestPermissions([android.Manifest.permission.GET_ACCOUNTS, androi
             });
 ```
 
-### Methods
+## Methods
 
-####getContact: Pick one contact and bring back its data.
+#### getContact: Pick one contact and bring back its data.
 
 ```js
 var app = require("application");
